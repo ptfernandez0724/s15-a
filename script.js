@@ -12,7 +12,7 @@ function gradeConverter(grade){
 		console.log("Your grade is C")
 	} else if(grade >=40 && grade <= 49){
 		console.log("Your grade is D")
-	} else if (grade < 40){
+	} else if (grade < 40 && grade === 0){
 		console.log("Your grade is F")
 	} else {
 		console.log("score is outside parameter")
